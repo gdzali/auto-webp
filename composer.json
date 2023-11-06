@@ -1,0 +1,6 @@
+{
+    "require": {
+        "rosell-dk/webp-convert": "^2.9",
+        "tihiy-production/php-image-compressor": "^2.3"
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "tihiy-production/php-image-compressor",
+  "description": "ImageCompressor - this is an easy way to compress images on the fly",
+  "keywords": [
+    "php",
+    "images",
+    "compress",
+    "jpegoptim",
+    "pngquant",
+    "png",
+    "jpeg"
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "ext-fileinfo": "*"
+  },
+  "homepage": "https://github.com/tihiy-production/php-image-compressor.git",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "tihiy\\Compressor\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6"
+  }
+}
